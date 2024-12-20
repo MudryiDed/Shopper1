@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:drawable="@drawable/btn_cylindrical_general_pressed"
+        android:state_pressed="true" />
+
+    <item
+        android:drawable="@drawable/btn_cylindrical_general_focused"
+        android:state_focused="true" />
+
+    <item
+        android:drawable="@drawable/btn_cylindrical_general_disabled"
+        android:state_enabled="false" />
+
+    <item
+        android:drawable="@drawable/btn_cylindrical_general_default"
+        android:state_enabled="true" />
+
+</selector>
